@@ -20,7 +20,7 @@ const HortaSchema = new Schema({
 	ph: {type: Number, min: 0, max: 14},
 	data: Date,
 	turbidez: Number,
-	vazao: String,
+	vazao: Number,
 	umidadeRelAr: String,
 	temperatura: String,
 	historico: [Historico]
